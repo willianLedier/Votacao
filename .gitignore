@@ -8,6 +8,9 @@
 *.sln.docstates
 .vs/
 
+# Ignorar arquivos ou pastas que contenham "v17" no nome (em qualquer lugar)
+*v17*
+
 # Arquivos de backup temporários
 *.tmp
 *.bak
