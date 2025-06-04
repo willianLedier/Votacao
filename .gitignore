@@ -6,10 +6,17 @@
 *.suo
 *.userosscache
 *.sln.docstates
+*.slnx
 .vs/
 
-# Ignorar arquivos ou pastas que contenham "v17" no nome (em qualquer lugar)
+# Ignorar arquivos ou pastas que contenham "v17" no nome
 *v17*
+
+# SQLite files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
 
 # Arquivos de backup temporários
 *.tmp
